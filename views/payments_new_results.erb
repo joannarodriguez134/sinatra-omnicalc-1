@@ -1,0 +1,39 @@
+<h1>
+  Monthly Loan Payment Results
+</h1>
+
+<dl>
+  <dt>
+    APR
+  </dt>
+  <dd>
+    <%= @payment_apr %>
+  </dd>
+
+  <dt>
+    Number of Years
+  </dt>
+  <dd>
+    <%= @payment_years %>
+  </dd>
+
+  <dt>
+    Principal
+  </dt>
+  <dd>
+    <%= @payment_principal %>
+  </dd>
+
+  <dt>
+  Payment
+  </dt>
+
+  <dd>
+  <%= @monthly_payment %>
+  </dd>
+</dl>
+
+
+<a href="/payment/new">
+  Calculate another payment
+</a>
